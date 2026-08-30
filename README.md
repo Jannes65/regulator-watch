@@ -14,6 +14,12 @@ Superseded items are removed rather than archived. **Git history is the archive*
 — every Monday's state is a commit, so you can diff week over week and show what
 the page said on any past date.
 
+## Reading it
+
+There is no hosting and no build step. `index.html` is a single self-contained
+page: clone the repo and open it in a browser, or read it on GitHub. Everything
+it needs is `assets/style.css` alongside it.
+
 ## How it updates
 
 A scheduled task runs every Monday at 07:00 Europe/Berlin, sweeps the
@@ -28,11 +34,17 @@ between these markers:
 
 Leave those comments in the file. Everything else is hand-maintained.
 
-Then commit and push — Netlify deploys on push.
+The task commits for you but does not push — pushing needs credentials the
+sandbox does not have. Monday morning there is a commit waiting; review it and
+push when you are happy.
 
 ```
-git add -A && git commit -m "Weekly sweep: <date>" && git push
+git push
 ```
+
+If a commit is ever refused with `Unable to create '.git/index.lock': File
+exists`, delete the stale `.lock` files under `.git` and retry. The sandbox
+cannot always clean up after itself.
 
 ## Rules the sweep follows
 
@@ -60,5 +72,4 @@ opened, that is recorded as a coverage gap rather than summarised second-hand.
 ```
 index.html        the page
 assets/style.css  the only stylesheet
-netlify.toml      publish config (no build step)
 ```
