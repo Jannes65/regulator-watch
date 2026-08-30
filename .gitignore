@@ -1,0 +1,13 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.iml
+*.swp
+*~
+
+# never commit source PDFs or working data
+*.pdf
+*.xlsx
+*.zip

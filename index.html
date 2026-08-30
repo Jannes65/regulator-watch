@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Regulator Watch</title>
+<meta name="description" content="Live picture of where regulators require proof of what an automated system did or decided. Internal reference for AI Notary.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<nav class="sitenav"><div class="inner">
+  <a class="brand" href="#top">Regulator Watch<span class="dot">.</span></a>
+  <div class="jumplinks">
+    <a href="#state">State of play</a>
+    <a href="#south-africa">South Africa</a>
+    <a href="#method">Method</a>
+    <a href="#log">Update log</a>
+  </div>
+</div></nav>
+
+<div class="wrap" id="top">
+
+<header class="hero">
+  <div class="col">
+    <span class="eyebrow">Internal reference &middot; AI Notary</span>
+    <h1 style="margin-top:20px">Where regulators start asking institutions to <em style="font-style:italic;color:var(--built)">prove</em> what a system decided.</h1>
+    <p class="lede">One living picture across six jurisdictions and twenty-four regulators, refreshed every Monday from primary sources. The question is narrow: at what point does a rule, a consultation or an enforcement action require someone to reconstruct and defend a particular automated decision after the fact?</p>
+    <p class="stamp" style="margin-top:20px">
+      <!-- WATCH:STAMP_START -->Last swept: not yet &middot; first sweep Monday 31 August 2026, 07:00 Europe/Berlin<!-- WATCH:STAMP_END -->
+    </p>
+  </div>
+</header>
+
+<section id="state">
+  <div class="sechead"><span class="eyebrow">State of play</span><span class="line"></span></div>
+  <h2>What is currently open, live, or awaited</h2>
+  <div class="col">
+    <p>Each block holds the current position for that jurisdiction &mdash; open consultations, live obligations, and anything awaited. Superseded items are removed rather than archived; this is a picture of now, not a pile of reports.</p>
+  </div>
+  <!-- WATCH:STATE_START -->
+  <div class="jgrid"><div class="jblock"><h3>South Africa <span class="pill done">Analysed</span></h3><div class="regs">FSCA · Prudential Authority · SARB · National Credit Regulator · Information Regulator</div><ul><li><strong>POPIA s71 is live.</strong> Automated loan rejection requires human review and an appeal mechanism; the data subject may make representations and must receive &ldquo;sufficient information about the underlying logic.&rdquo;</li><li><strong>FAIS automated-advice standards</strong> apply technology-neutrally to robo-advisors: algorithm monitoring, review and testing, internal controls, system governance.</li><li><strong>Awaited:</strong> the FSCA&ndash;PA discussion paper announced in the November 2025 joint report. Not yet published. Highest-priority watch item.</li></ul></div><div class="jblock"><h3>European Union <span class="pill none">First sweep 31 Aug</span></h3><div class="regs">European Commission AI Office · EBA · EIOPA · ESMA · EDPB</div><ul><li style="color:var(--faint)">No findings recorded yet. First sweep runs Monday 31 August 2026.</li></ul></div><div class="jblock"><h3>United Kingdom <span class="pill none">First sweep 31 Aug</span></h3><div class="regs">FCA · Bank of England · ICO</div><ul><li style="color:var(--faint)">No findings recorded yet. First sweep runs Monday 31 August 2026.</li></ul></div><div class="jblock"><h3>United States <span class="pill none">First sweep 31 Aug</span></h3><div class="regs">CFPB · FTC · Federal Reserve · OCC · NAIC</div><ul><li style="color:var(--faint)">No findings recorded yet. First sweep runs Monday 31 August 2026.</li></ul></div><div class="jblock"><h3>Australia <span class="pill none">First sweep 31 Aug</span></h3><div class="regs">APRA · ASIC · OAIC</div><ul><li style="color:var(--faint)">No findings recorded yet. First sweep runs Monday 31 August 2026.</li></ul></div><div class="jblock"><h3>Global bodies <span class="pill none">First sweep 31 Aug</span></h3><div class="regs">FSB · BIS · IOSCO · IAIS · OECD</div><ul><li style="color:var(--faint)">No findings recorded yet. First sweep runs Monday 31 August 2026.</li></ul></div></div>
+  <!-- WATCH:STATE_END -->
+</section>
+
+<section id="method">
+  <div class="sechead"><span class="eyebrow">Method</span><span class="line"></span></div>
+  <h2>Priority order, and why it runs backwards</h2>
+  <div class="col">
+    <p>Most regulatory monitoring leads with final rules. This one ends with them. By the time guidance is final the decision is made and the influence is gone; the useful moment is earlier.</p>
+  </div>
+  <ol style="max-width:640px; padding-left:22px; margin-top:20px">
+    <li style="margin-bottom:10px"><strong>Open consultations and discussion papers.</strong> A decision not yet made.</li>
+    <li style="margin-bottom:10px"><strong>Published consultation responses.</strong> Firms stating their unsolved problems on the record.</li>
+    <li style="margin-bottom:10px"><strong>Enforcement actions and fines</strong> involving automated decisions.</li>
+    <li style="margin-bottom:10px"><strong>Speeches by senior supervisors.</strong> Direction before drafting.</li>
+    <li><strong>Final guidance, circulars and rules.</strong> Confirmation, not signal.</li>
+  </ol>
+  <div class="callout cool" style="max-width:760px">
+    <p style="margin:0"><strong>The standing question.</strong> For every item: does it name a moment where someone must <em>prove</em> what an automated system did or decided? Where it does, the phrasing is quoted verbatim rather than paraphrased. Primary sources only &mdash; the regulator&rsquo;s own site, never a vendor blog or law-firm summary.</p>
+  </div>
+</section>
+
+<section id="south-africa">
+  <div class="sechead"><span class="eyebrow">Deep dive &middot; South Africa</span><span class="line"></span></div>
+  <h2>Everyone agrees accountability matters. Almost nobody audits.</h2>
+  <div class="col">
+    <p class="lede" style="font-size:1.08rem">South Africa&rsquo;s insurers and lenders rank accountability for AI-driven decisions among their highest ethical concerns &mdash; and rank the ability to contest one dead last among their constraints. The joint FSCA&ndash;PA survey measured both. The distance between them is the finding.</p>
+  </div>
+
+
+
+
+<section id="adoption">
+  <div class="sechead"><span class="eyebrow">01 — Base</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">The population is small, and unevenly distributed</h3>
+  <div class="col">
+    <p>The PA and FSCA surveyed the sector from 21 October 2024. Roughly 2,100 institutions responded; 220 of them use AI. Adoption is concentrated almost entirely in banking — every one of the big four has adopted, while insurance and lending sit at 8% each.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">8<span style="font-size:1.4rem">%</span></div><div class="lab">Insurance</div><div class="sub mono">59 of 774 respondents</div></div>
+    <div class="stat"><div class="n">8<span style="font-size:1.4rem">%</span></div><div class="lab">Non-bank lending</div><div class="sub mono">8 of 102 respondents</div></div>
+    <div class="stat"><div class="n">11</div><div class="lab">Banking adopters</div><div class="sub mono">of 22 · big four all in</div></div>
+    <div class="stat"><div class="n">220</div><div class="lab">AI users, all sectors</div><div class="sub mono">10.6% of ~2,100</div></div>
+  </div>
+  <div class="col">
+    <p style="font-size:.92rem; color:var(--muted)">Eight lending institutions is not a sample — it is eight companies. Every lending percentage below moves in steps of 12.5. Read that column as anecdote, and the insurance column as evidence.</p>
+  </div>
+</section>
+
+<section id="gap">
+  <div class="sechead"><span class="eyebrow">02 — The gap</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">Stated concern runs 3&ndash;7× ahead of built capability</h3>
+  <div class="col">
+    <p>The survey asked two separate questions. One: which ethical considerations matter most? Accountability for AI-driven decisions scored near the top everywhere. Two: which governance frameworks are actually established? ML auditing came last in every single sector.</p>
+  </div>
+
+  <figure>
+    <div class="fig-head">
+      <div class="fig-title">What institutions say vs. what they have built</div>
+      <p class="fig-note">Share citing accountability for AI-driven decisions as a key ethical consideration, against share with an ML auditing framework established.</p>
+    </div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--stated)"></i> Says accountability matters</span>
+      <span><i class="sw" style="background:var(--built)"></i> Has ML auditing in place</span>
+    </div>
+    <div class="plot">
+      <div class="rows" style="--labw:150px">
+        <div class="grp">
+          <div class="grp-name">Banking <span class="n">N=11</span> <span class="gapmark">64 pt gap</span></div>
+          <div class="row"><div class="rlab">Says it matters</div><div class="track"><div class="bar stated" style="width:91%" title="Banking — accountability as ethical consideration: 91%"><span class="v">91%</span></div></div></div>
+          <div class="row"><div class="rlab">Has auditing</div><div class="track"><div class="bar built" style="width:27%" title="Banking — ML auditing framework established: 27%"><span class="v">27%</span></div></div></div>
+        </div>
+        <div class="grp">
+          <div class="grp-name">Insurance <span class="n">N=59</span> <span class="gapmark">56 pt gap</span></div>
+          <div class="row"><div class="rlab">Says it matters</div><div class="track"><div class="bar stated" style="width:75%" title="Insurance — accountability as ethical consideration: 75%"><span class="v">75%</span></div></div></div>
+          <div class="row"><div class="rlab">Has auditing</div><div class="track"><div class="bar built" style="width:19%" title="Insurance — ML auditing framework established: 19%"><span class="v">19%</span></div></div></div>
+        </div>
+        <div class="grp">
+          <div class="grp-name">Lending <span class="n">N=8</span> <span class="gapmark">75 pt gap</span></div>
+          <div class="row"><div class="rlab">Says it matters</div><div class="track"><div class="bar stated" style="width:88%" title="Lending — accountability as ethical consideration: 88%"><span class="v">88%</span></div></div></div>
+          <div class="row"><div class="rlab">Has auditing</div><div class="track"><div class="bar built" style="width:13%" title="Lending — ML auditing framework established: 13%"><span class="v">13%</span></div></div></div>
+        </div>
+      </div>
+    </div>
+    <figcaption>Bars share one 0–100% scale. Source: FSCA–PA Databook, sector chapters.</figcaption>
+    <details class="tbl"><summary>View as table</summary><div class="tblwrap">
+      <table><thead><tr><th>Sector</th><th>Accountability is a key ethical concern</th><th>ML auditing established</th><th>Gap</th></tr></thead>
+      <tbody>
+        <tr><td>Banking (N=11)</td><td class="num">91%</td><td class="num">27%</td><td class="num">64 pt</td></tr>
+        <tr><td>Insurance (N=59)</td><td class="num">75%</td><td class="num">19%</td><td class="num">56 pt</td></tr>
+        <tr><td>Lending (N=8)</td><td class="num">88%</td><td class="num">13%</td><td class="num">75 pt</td></tr>
+      </tbody></table>
+    </div></details>
+  </figure>
+
+  <div class="callout">
+    <p><strong>Banking's number is the interesting one.</strong> Banks are not under-governed — 91% have model development, validation and ongoing monitoring; 73% have model risk management; 82% have a named accountable person. They have built everything <em>except</em> the ability to have an outsider check the work. Validation is a first-party activity. Auditing is not. That distinction is the whole market.</p>
+  </div>
+</section>
+
+<section id="frameworks">
+  <div class="sechead"><span class="eyebrow">03 — Where it thins out</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">The further a control sits from the model, the less of it exists</h3>
+  <div class="col">
+    <p>Ranking the four evidence-relevant governance frameworks by how widely each is established shows a clean gradient. Institutions build inward-facing controls — validating their own models — and stop before the outward-facing ones that would let a regulator, a customer or a court examine a specific decision after the fact.</p>
+  </div>
+
+  <figure>
+    <div class="fig-head">
+      <div class="fig-title">Established AI governance frameworks, by sector</div>
+      <p class="fig-note">Share of AI-adopting institutions reporting each framework in place. Ordered by banking's score.</p>
+    </div>
+    <div class="legend">
+      <span><i class="sw" style="background:var(--stated)"></i> Banking (N=11)</span>
+      <span><i class="sw" style="background:var(--built)"></i> Insurance (N=59)</span>
+      <span><i class="sw" style="background:var(--muted)"></i> Lending (N=8)</span>
+    </div>
+    <div class="plot">
+      <div class="rows" style="--labw:230px">
+        <div class="grp">
+          <div class="grp-name">Model development, validation &amp; ongoing monitoring</div>
+          <div class="row"><div class="rlab">Banking</div><div class="track"><div class="bar stated" style="width:91%" title="91%"><span class="v">91%</span></div></div></div>
+          <div class="row"><div class="rlab">Insurance</div><div class="track"><div class="bar built" style="width:34%" title="34%"><span class="v">34%</span></div></div></div>
+          <div class="row"><div class="rlab">Lending</div><div class="track"><div class="bar" style="width:13%; background:var(--muted)" title="13%"><span class="v">13%</span></div></div></div>
+        </div>
+        <div class="grp">
+          <div class="grp-name">Model risk management</div>
+          <div class="row"><div class="rlab">Banking</div><div class="track"><div class="bar stated" style="width:73%" title="73%"><span class="v">73%</span></div></div></div>
+          <div class="row"><div class="rlab">Insurance</div><div class="track"><div class="bar built" style="width:31%" title="31%"><span class="v">31%</span></div></div></div>
+          <div class="row"><div class="rlab">Lending</div><div class="track"><div class="bar" style="width:13%; background:var(--muted)" title="13%"><span class="v">13%</span></div></div></div>
+        </div>
+        <div class="grp">
+          <div class="grp-name">Explainability / interpretability requirements</div>
+          <div class="row"><div class="rlab">Banking</div><div class="track"><div class="bar stated" style="width:64%" title="64%"><span class="v">64%</span></div></div></div>
+          <div class="row"><div class="rlab">Insurance</div><div class="track"><div class="bar built" style="width:31%" title="31%"><span class="v">31%</span></div></div></div>
+          <div class="row"><div class="rlab">Lending</div><div class="track"><div class="bar" style="width:25%; background:var(--muted)" title="25%"><span class="v">25%</span></div></div></div>
+        </div>
+        <div class="grp">
+          <div class="grp-name">ML auditing, including through third parties</div>
+          <div class="row"><div class="rlab">Banking</div><div class="track"><div class="bar stated" style="width:27%" title="27%"><span class="v">27%</span></div></div></div>
+          <div class="row"><div class="rlab">Insurance</div><div class="track"><div class="bar built" style="width:19%" title="19%"><span class="v">19%</span></div></div></div>
+          <div class="row"><div class="rlab">Lending</div><div class="track"><div class="bar" style="width:13%; background:var(--muted)" title="13%"><span class="v">13%</span></div></div></div>
+        </div>
+      </div>
+    </div>
+    <figcaption>ML auditing is the lowest-ranked framework in all three sectors. Source: FSCA–PA Databook.</figcaption>
+    <details class="tbl"><summary>View as table</summary><div class="tblwrap">
+      <table><thead><tr><th>Framework</th><th>Banking</th><th>Insurance</th><th>Lending</th></tr></thead>
+      <tbody>
+        <tr><td>Model development, validation &amp; monitoring</td><td class="num">91%</td><td class="num">34%</td><td class="num">13%</td></tr>
+        <tr><td>Model risk management</td><td class="num">73%</td><td class="num">31%</td><td class="num">13%</td></tr>
+        <tr><td>Explainability / interpretability requirements</td><td class="num">64%</td><td class="num">31%</td><td class="num">25%</td></tr>
+        <tr><td>ML auditing (incl. third parties)</td><td class="num">27%</td><td class="num">19%</td><td class="num">13%</td></tr>
+      </tbody></table>
+    </div></details>
+  </figure>
+</section>
+
+<section id="blindspot">
+  <div class="sechead"><span class="eyebrow">04 — The blind spot</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">Contestability ranks last on every list</h3>
+  <div class="col">
+    <p>Asked to name the non-regulatory constraints on AI adoption, insurers produced seventeen. "Contestability and recourse mechanism which include redress" finished seventeenth, at 14%. Banking put it last too (18%). So did lending (13%).</p>
+    <p>This is not a market that has weighed the problem and priced it. It is a market that has not yet noticed it.</p>
+  </div>
+
+  <figure>
+    <div class="fig-head">
+      <div class="fig-title">Insurance: non-regulatory constraints on AI adoption</div>
+      <p class="fig-note">All seventeen constraints as ranked by 59 AI-adopting insurers.</p>
+    </div>
+    <div class="plot">
+      <div class="rows" style="--labw:250px">
+        <div class="row"><div class="rlab">Lack of access to sufficient data</div><div class="track"><div class="bar flat" style="width:51%"><span class="v">51%</span></div></div></div>
+        <div class="row"><div class="rlab">Insufficient talent / access to skills</div><div class="track"><div class="bar flat" style="width:51%"><span class="v">51%</span></div></div></div>
+        <div class="row"><div class="rlab">Appropriate transparency and explainability</div><div class="track"><div class="bar flat" style="width:42%"><span class="v">42%</span></div></div></div>
+        <div class="row"><div class="rlab">Poor data quality within the institution</div><div class="track"><div class="bar flat" style="width:41%"><span class="v">41%</span></div></div></div>
+        <div class="row"><div class="rlab">Legacy systems / infrastructure</div><div class="track"><div class="bar flat" style="width:39%"><span class="v">39%</span></div></div></div>
+        <div class="row"><div class="rlab">Safety, security and robustness</div><div class="track"><div class="bar flat" style="width:39%"><span class="v">39%</span></div></div></div>
+        <div class="row"><div class="rlab">Bias and fairness in decision making</div><div class="track"><div class="bar flat" style="width:36%"><span class="v">36%</span></div></div></div>
+        <div class="row"><div class="rlab">Accountability and governance</div><div class="track"><div class="bar flat" style="width:36%"><span class="v">36%</span></div></div></div>
+        <div class="row"><div class="rlab">ML not a priority given scale / scope</div><div class="track"><div class="bar flat" style="width:32%"><span class="v">32%</span></div></div></div>
+        <div class="row"><div class="rlab">Lack of access to sufficient hardware</div><div class="track"><div class="bar flat" style="width:31%"><span class="v">31%</span></div></div></div>
+        <div class="row"><div class="rlab">Potential harms to consumers</div><div class="track"><div class="bar flat" style="width:31%"><span class="v">31%</span></div></div></div>
+        <div class="row"><div class="rlab">Potential harms to the business</div><div class="track"><div class="bar flat" style="width:29%"><span class="v">29%</span></div></div></div>
+        <div class="row"><div class="rlab">Uncertainty around intellectual property</div><div class="track"><div class="bar flat" style="width:29%"><span class="v">29%</span></div></div></div>
+        <div class="row"><div class="rlab">Lack of standards</div><div class="track"><div class="bar flat" style="width:27%"><span class="v">27%</span></div></div></div>
+        <div class="row"><div class="rlab">Shortcomings in internal data governance</div><div class="track"><div class="bar flat" style="width:25%"><span class="v">25%</span></div></div></div>
+        <div class="row"><div class="rlab">Lack of governance and monitoring arrangements</div><div class="track"><div class="bar flat" style="width:20%"><span class="v">20%</span></div></div></div>
+        <div class="row"><div class="rlab"><b>Contestability and recourse, incl. redress</b></div><div class="track"><div class="bar last" style="width:14%"><span class="v" style="color:var(--alarm)">14%</span></div></div></div>
+      </div>
+    </div>
+    <figcaption>Banking ranked the same item last at 18%; lending last at 13%. Source: FSCA–PA Databook.</figcaption>
+  </figure>
+
+  <div class="callout cool">
+    <p style="margin-bottom:12px"><strong>Which is awkward, because it is already law.</strong> The report's own Part 2 sets out what POPIA section 71 requires of an automated decision with legal or substantial effect:</p>
+    <blockquote>“in loan applications, automated approval is permitted, but rejections require additional safeguards like human review and an appeal mechanism to ensure compliance and fairness.”<cite>FSCA–PA, <i>Artificial Intelligence in the South African Financial Sector</i>, Part 2</cite></blockquote>
+    <p>Data subjects may “make representations about the decision” and must receive “sufficient information about the underlying logic” of the process. That is a duty to reconstruct a specific past decision on demand — in force now, not proposed. The constraint insurers rank seventeenth is the one already binding them.</p>
+  </div>
+</section>
+
+<section id="explainability">
+  <div class="sechead"><span class="eyebrow">05 — Instrumentation</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">Nearly a third of insurers can explain nothing</h3>
+  <div class="col">
+    <p>Explainability is the mechanism by which the POPIA duty gets discharged. 29% of AI-adopting insurers report using no explainability method at all. Sector-wide the figure is worse.</p>
+  </div>
+
+  <figure>
+    <div class="fig-head">
+      <div class="fig-title">Explainability methods employed — insurance</div>
+      <p class="fig-note">Multiple selection; N=59 AI-adopting insurers.</p>
+    </div>
+    <div class="plot">
+      <div class="rows" style="--labw:250px">
+        <div class="row"><div class="rlab">Feature importance</div><div class="track"><div class="bar flat" style="width:47%"><span class="v">47%</span></div></div></div>
+        <div class="row"><div class="rlab"><b>None</b></div><div class="track"><div class="bar last" style="width:29%"><span class="v" style="color:var(--alarm)">29%</span></div></div></div>
+        <div class="row"><div class="rlab">Individual Conditional Expectation plots</div><div class="track"><div class="bar flat" style="width:15%"><span class="v">15%</span></div></div></div>
+        <div class="row"><div class="rlab">SHAP</div><div class="track"><div class="bar flat" style="width:15%"><span class="v">15%</span></div></div></div>
+        <div class="row"><div class="rlab">LIME</div><div class="track"><div class="bar flat" style="width:14%"><span class="v">14%</span></div></div></div>
+        <div class="row"><div class="rlab">Partial dependence plots</div><div class="track"><div class="bar flat" style="width:14%"><span class="v">14%</span></div></div></div>
+        <div class="row"><div class="rlab">Counterfactual explanations</div><div class="track"><div class="bar flat" style="width:14%"><span class="v">14%</span></div></div></div>
+        <div class="row"><div class="rlab">Saliency maps</div><div class="track"><div class="bar flat" style="width:8%"><span class="v">8%</span></div></div></div>
+        <div class="row"><div class="rlab">Integrated gradients</div><div class="track"><div class="bar flat" style="width:8%"><span class="v">8%</span></div></div></div>
+        <div class="row"><div class="rlab">Surrogate models</div><div class="track"><div class="bar flat" style="width:7%"><span class="v">7%</span></div></div></div>
+        <div class="row"><div class="rlab">Layer-wise relevance propagation</div><div class="track"><div class="bar flat" style="width:3%"><span class="v">3%</span></div></div></div>
+      </div>
+    </div>
+    <figcaption>Banking by contrast: feature importance 64%, SHAP 55%, LIME 36%. Source: FSCA–PA Databook.</figcaption>
+  </figure>
+
+  <div class="col">
+    <p style="margin-top:26px"><strong>One inconsistency worth knowing before you cite it.</strong> The main report's narrative text states that 21% of institutions use no explainability method. Its own Figure 15, on the same page, shows 34%. The two do not reconcile. If you quote a sector-wide figure, quote the chart and say so — or use the insurance-specific 29%, which is internally consistent.</p>
+  </div>
+</section>
+
+<section id="diffuse">
+  <div class="sechead"><span class="eyebrow">06 — Ownership</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">And no one owns it</h3>
+  <div class="col">
+    <p>Asked who is accountable for AI decisions, insurers scattered. The Board leads at 25% — meaning three-quarters of insurers locate accountability somewhere other than the Board, and no single role holds even a third of the sector.</p>
+  </div>
+  <figure>
+    <div class="fig-head">
+      <div class="fig-title">Where accountability for AI decisions sits — insurance</div>
+      <p class="fig-note">N=59. No locus commands a majority.</p>
+    </div>
+    <div class="plot">
+      <div class="rows" style="--labw:250px">
+        <div class="row"><div class="rlab">Board or relevant governing body</div><div class="track"><div class="bar flat" style="width:25%"><span class="v">25%</span></div></div></div>
+        <div class="row"><div class="rlab">AI ethics officers</div><div class="track"><div class="bar flat" style="width:22%"><span class="v">22%</span></div></div></div>
+        <div class="row"><div class="rlab">Business area users</div><div class="track"><div class="bar flat" style="width:15%"><span class="v">15%</span></div></div></div>
+        <div class="row"><div class="rlab">Developers and data science teams</div><div class="track"><div class="bar flat" style="width:12%"><span class="v">12%</span></div></div></div>
+        <div class="row"><div class="rlab">Executive leadership</div><div class="track"><div class="bar flat" style="width:10%"><span class="v">10%</span></div></div></div>
+        <div class="row"><div class="rlab">Central AI committee or similar</div><div class="track"><div class="bar flat" style="width:7%"><span class="v">7%</span></div></div></div>
+        <div class="row"><div class="rlab">Product managers</div><div class="track"><div class="bar flat" style="width:5%"><span class="v">5%</span></div></div></div>
+      </div>
+    </div>
+    <figcaption>Banking distributes differently and more heavily — business area users 91%, central AI committee 73%, executive leadership 73% — suggesting overlapping rather than singular ownership. Source: FSCA–PA Databook.</figcaption>
+  </figure>
+</section>
+
+<section id="reading">
+  <div class="sechead"><span class="eyebrow">07 — What it adds up to</span><span class="line"></span></div>
+  <h3 style="font-size:1.5rem;margin-bottom:18px">Three things follow</h3>
+  <div class="col">
+    <p><strong>The duty exists and the instrument does not.</strong> POPIA s71 and the FAIS automated-advice requirements already oblige an institution to reconstruct and defend a specific automated decision. Fewer than one in five insurers has an auditing framework; nearly one in three cannot explain a model's output at all. The obligation is not waiting on new regulation to arrive.</p>
+    <p><strong>Validation is not evidence.</strong> Banking's profile is the clearest statement of the problem: 91% validate their models, 27% audit them. Validation asks whether a model is fit for purpose in general. Evidence asks what a named system did, in one case, on one date, and whether that account can be trusted by someone who was not there. The survey shows the sector has built the first and not the second.</p>
+    <p><strong>Insurance is the more credible near-term case than lending.</strong> Not because lending's numbers look better — they look worse — but because eight respondents cannot carry an argument. Insurance gives you 59 institutions, a statutory hook in underwriting and claims, and a 56-point gap between what they say and what they have.</p>
+  </div>
+
+  <div class="caveat">
+    <div class="eyebrow" style="margin-bottom:12px">Limits of this data</div>
+    <ul>
+      <li><strong>Lending is N=8.</strong> One institution moves any lending figure by 12.5 points. Directional at best.</li>
+      <li><strong>Self-reported.</strong> The report itself flags interpretation bias, optimism bias and incomplete disclosure, particularly on risk management practices.</li>
+      <li><strong>Voluntary, and briefly open.</strong> October to December 2024 only — the report notes this may have excluded institutions needing internal approval to respond.</li>
+      <li><strong>Now dated.</strong> Fieldwork is roughly two years old; adoption figures in particular will have moved.</li>
+      <li><strong>Fintechs were folded into payments</strong> for reporting, which obscures fintech-specific patterns.</li>
+      <li><strong>Percentages are reported to the whole number</strong> and several sets do not sum cleanly; treat them as read off charts, not as precise.</li>
+    </ul>
+  </div>
+
+  <div class="callout" style="margin-top:32px">
+    <p><strong>What to watch next.</strong> The report closes by announcing that the FSCA and PA “will develop a discussion paper that will build on the findings of this joint FSCA–PA AI research report and will engage stakeholders on key regulatory and supervisory questions.” As of August 2026 it has not appeared. That paper is where the sector's supervisory expectations on evidence and explainability will first be put out for comment — the moment before a decision is made, and the point of maximum influence.</p>
+  </div>
+</section>
+
+
+
+
+</section>
+
+<section id="log">
+  <div class="sechead"><span class="eyebrow">Update log</span><span class="line"></span></div>
+  <h2>What changed, week by week</h2>
+  <div class="col"><p>One line per sweep. Quiet weeks are recorded as quiet weeks &mdash; a week with nothing material is itself evidence about the pace of regulatory movement.</p></div>
+  <ul class="log">
+  <!-- WATCH:LOG_START -->
+    <li><span class="d">30 Aug 2026</span><span class="x">Site established. South Africa deep dive built from the FSCA&ndash;PA November 2025 report, databook and survey instrument.</span></li>
+  <!-- WATCH:LOG_END -->
+  </ul>
+</section>
+
+<footer style="margin-top:80px;padding-top:24px;border-top:1px solid var(--rule);color:var(--muted);font-size:.85rem">
+<p>South African figures are drawn from three primary documents published by the Financial Sector Conduct Authority and the Prudential Authority, November 2025: <i>Artificial Intelligence in the South African Financial Sector</i> (56pp), its <i>Databook</i> (169pp), and the survey instrument (13pp). All figures are the regulators&rsquo; own; the framing and the gap arithmetic are this analysis.</p>
+<p style="color:var(--faint)">The Prudential Authority sits within the South African Reserve Bank but publishes in its own name &mdash; SARB itself is not the author of the AI work. Internal reference, maintained for Du-engage.</p>
+</footer>
+
+</div>
+</body>
+</html>
