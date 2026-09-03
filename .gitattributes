@@ -1,0 +1,10 @@
+# Normalise line endings so week-to-week diffs show real changes only.
+# The Monday sweep writes from Linux (LF); commits happen on Windows.
+# Without this, one side rewrites every line and the diff becomes useless.
+* text=auto eol=lf
+
+# Binary-ish assets: never touch
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary
