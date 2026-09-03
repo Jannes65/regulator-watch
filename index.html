@@ -15,6 +15,7 @@
   <a class="brand" href="#top">Regulator Watch<span class="dot">.</span></a>
   <div class="jumplinks">
     <a href="#state">State of play</a>
+    <a href="#entities">Entities</a>
     <a href="#voices">Voices</a>
     <a href="#south-africa">South Africa</a>
     <a href="#method">Method</a>
@@ -120,6 +121,48 @@
     <p style="margin:0">The guardrails the report proposes for its own use cases are &ldquo;auditable processes: establish transparent, auditable AI compliance frameworks&rdquo; and &ldquo;regulatory acceptance: ensures the AFCA and regulators support AI system outputs&rdquo;. AFCA is the Australian financial ombud &mdash; the body that asks firms to prove what happened. The industry has named the ombud moment as the thing it must solve for, before any regulator required it to.</p>
   </div>
 
+</section>
+
+<section id="entities">
+  <div class="sechead"><span class="eyebrow">Watched entities</span><span class="line"></span></div>
+  <h2>Not regulators. Watched for a different reason.</h2>
+  <div class="col">
+    <p>Credit bureaux are the only commercial entity type named in the law &mdash; EU AI Act Annex III 5(b) does not say &ldquo;firms using AI in lending&rdquo;, it says &ldquo;establish their credit score&rdquo;. They are also licensed infrastructure (FCA-authorised in the UK, NCR-registered in South Africa, CFPB-supervised in the US), which puts them between the regulator and the regulated. What they do propagates to every lender consuming their output.</p>
+    <p style="font-size:.92rem;color:var(--muted)">Kept separate from the jurisdiction blocks on purpose. Nothing here is an obligation. These are priority-2 signals &mdash; firms stating their position on the record &mdash; and priority-3 where an action is taken against one.</p>
+  </div>
+
+  <div class="jgrid" style="margin-top:26px">
+
+    <div class="jblock"><h3>Experian <span class="pill watch">Has shipped</span></h3><div class="regs">Global &middot; Agent Trust, announced 30 April 2026</div><ul>
+      <li><strong>What it actually is</strong> &mdash; verified this week, closing an open research action. A framework, not a single product: <em>Human-to-Agent Binding</em> (&ldquo;a secure link between a verified consumer, their device and the AI agent&rdquo;), an <em>Agent Trust Token</em> giving &ldquo;a real time signal of identity, consent and fraud risk&rdquo;, and an <em>Agent Registry that continuously evaluates behavior over time&rdquo;. Claim: &ldquo;Each agentic transaction can be traced back to the human who initiated the transaction.&rdquo;</li>
+      <li><strong>Ecosystem partners:</strong> Visa, Cloudflare and Skyfire at launch; Akamai added May 2026, Fastly July 2026. This is being built as a network, not a feature.</li>
+      <li><strong>The distinction that matters.</strong> A trust token is a <em>forward-looking</em> signal evaluated at transaction time by Experian. It answers &ldquo;should this agent be trusted now?&rdquo; It does not answer &ldquo;what did this system do on 3 March, and can a stranger check it?&rdquo; The registry scores the agent; Experian holds the score and performs the verification. Top half of the trust boundary, built at scale.</li>
+      <li><strong>Correction to the register:</strong> logged as September 2026. The launch was <strong>30 April 2026</strong> &mdash; four months earlier, and further along than assumed.</li>
+    </ul></div>
+
+    <div class="jblock"><h3>TransUnion <span class="pill watch">Claims the property</span></h3><div class="regs">Global &middot; AI Analytics Orchestrator Agent, 5 March 2026</div><ul>
+      <li>&ldquo;Purpose-built to deliver <strong>auditable, explainable and governed</strong> analytics.&rdquo;</li>
+      <li><strong>The mechanism is the tell.</strong> The agent breaks each prompt into steps, maps the steps to code, and returns the reasoning to the user in plain language. The system that produced the output also produces the account of the output, and the audience is the operator. Self-asserted auditability in its purest form.</li>
+      <li>Analytics tooling rather than a decisioning surface &mdash; a positioning signal, not a directly competing product.</li>
+    </ul></div>
+
+    <div class="jblock"><h3>CPB <span class="pill done">LOI signed</span></h3><div class="regs">South Africa &middot; homepage positioning, August 2026</div><ul>
+      <li>&ldquo;Accurate, <strong>audit-ready</strong> data solutions&rdquo;; helps organisations &ldquo;interpret it, act on it, and <strong>own the decisions</strong> made with it&rdquo;.</li>
+      <li>Already using the vocabulary before any conversation about supplying the property behind it.</li>
+      <li><strong>Relevant to the pitch:</strong> Experian has decided a bureau&rsquo;s role includes being trust infrastructure for agents, and has shipped it with five named network partners. The question for CPB is no longer whether a bureau does this, but whether it does it as a first-party verifier or with an independent layer beneath.</li>
+    </ul></div>
+
+    <div class="jblock"><h3>What to watch <span class="pill none">Method</span></h3><div class="regs">Fetchable, unlike LinkedIn. Fits the existing priority order.</div><ul>
+      <li><strong>Consultation responses they file.</strong> When a bureau answers an ICO or FCA consultation on automated decisions, it states in writing what it cannot currently do. Priority 2.</li>
+      <li><strong>Enforcement actions against them.</strong> A bureau sanctioned over an automated decision is a case study written by a regulator. Priority 3, and currently a gap &mdash; the sweep reads what supervisors publish, not what they do to named firms.</li>
+      <li><strong>Product launches and methodology disclosures</strong>, especially anything changing after UK Article 22C.</li>
+    </ul></div>
+
+  </div>
+
+  <div class="callout" style="margin-top:28px">
+    <p style="margin:0"><strong>The pattern, and it is the most commercially useful thing on this page.</strong> Every major bureau has converged on the same vocabulary &mdash; auditable, explainable, governed, audit-ready, traceable back to the human. Not one of them supplies the property that makes the claim checkable by a party who does not already trust them. They are competing to be the trusted verifier. Nobody is competing to be verifiable.</p>
+  </div>
 </section>
 
 <section id="voices">
@@ -465,6 +508,7 @@
   <div class="col"><p>One line per sweep. Quiet weeks are recorded as quiet weeks &mdash; a week with nothing material is itself evidence about the pace of regulatory movement.</p></div>
   <ul class="log">
   <!-- WATCH:LOG_START -->
+    <li><span class="d">3 Sep 2026</span><span class="x">Added Watched entities &mdash; credit bureaux, kept deliberately outside the jurisdiction blocks because none of them is a regulator. Closed the open research action on Experian Agent Trust: it is a binding, token and registry framework launched 30 April 2026 with Visa, Cloudflare and Skyfire, later Akamai and Fastly &mdash; four months earlier than the register recorded, and further along. All three bureaux now claim auditability; none supplies independent verifiability.</span></li>
     <li><span class="d">1 Sep 2026</span><span class="x">EU and UK named actors added to Voices: Sheldon Mills and the FCA review of 6 July 2026, the FCA AI Lab and Live Testing cohorts, and the AI Office&rsquo;s complaints and whistleblower tools live since 2 August. Also recorded what actually became applicable that day after the Omnibus &mdash; the Article 50 transparency rules, not the high-risk regime. Read side by side, the UK now holds the only live per-decision obligation of the four, which reorders where effort should go.</span></li>
     <li><span class="d">1 Sep 2026</span><span class="x">Added a Voices section &mdash; who shapes the argument, split by what they do to it: gatekeepers who change what is required, amplifiers who shape the vocabulary buyers use, adjacent builders, and the buying roles themselves. Seeded from sources already read. LinkedIn, where most of this happens, is not fetchable by the weekly sweep, so following and commenting stays manual.</span></li>
     <li><span class="d">31 Aug 2026</span><span class="x">The EU pulled its own deadline back by sixteen months. Regulation (EU) 2026/1744 &mdash; the Digital Omnibus on AI, in force 27 July 2026 &mdash; defers the Annex III high-risk obligations, credit scoring included, from 2 August 2026 to <strong>2 December 2027</strong>. Article 86 is not amended and not mentioned, so the right to an explanation still reads as applicable since 2 August 2026 while the Chapter III machinery behind it now arrives a year and a half later. The two dates have come apart, and the page records that without drawing the conclusion.</span></li>
