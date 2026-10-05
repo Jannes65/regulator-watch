@@ -11,3 +11,6 @@ desktop.ini
 *.pdf
 *.xlsx
 *.zip
+
+# sandbox git lock droppings
+_to_delete/
